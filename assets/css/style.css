@@ -54,16 +54,16 @@ display: block;
 }
 .nav-links ul li:hover{
     background: #FC6C0F;
-    opacity: 70%;
+
 }
 
 .title-health-form{
-    width: 88%;
+    width: 85%;
 }
 .student-icon{
     align-items: flex-end;
     background: #1C2D50;
-    height: 50px;
+    height: 60px;
 
 }
 #icon{
@@ -73,3 +73,131 @@ display: block;
     padding-right: 18px;
     color: #FAFAFA;
 }
+.text-box{
+    box-sizing: border-box;
+    background: #FAFAFA;
+    margin-left: 10%;
+    height: 80px;
+    /* justify-content: center; */
+    margin-top: 50px;
+    width: 80%;
+    border-radius: 8px;
+    padding: 15px 30px 30px 20px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.form{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #FAFAFA;
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 80%;
+    border-radius: 10px;
+    height: 50%;
+    text-align: left;
+    margin-bottom: 50px;
+    
+}
+.pre-next-section{
+    display: flex;
+    justify-content:baseline;
+    align-items: baseline;
+    margin-left: 28px;
+    margin-right: 28px;
+    background: #FC6C0F;
+}
+.previous-next a{
+    color: black;
+    box-sizing: border-box;
+    background: #FC6C0F;
+    border-radius: 4px;
+    width: 100px;
+}
+.quiz-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* background: #FC6C0F; */
+    width: 80%;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 10%;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.quiz-2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* background: #FC6C0F; */
+    width: 80%;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 10%;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.quiz-3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+/* .yes-no input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    background: #FC6C0F;
+}
+
+        
+.checkmark {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background: #FC6C0F;
+  }
+.yes-no:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .yes-no input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .yes-no input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .yes-no .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(88, 60, 60);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  } */
