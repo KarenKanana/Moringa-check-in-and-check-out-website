@@ -23,8 +23,8 @@
 }
 
 #logo{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     margin-left: 7px;
     /* width: 100% auto; */
 }
@@ -36,25 +36,31 @@ display: block;
     
 }
 .nav-links ul li{
-    padding: 12px;
+    padding: 18px;
     /* margin: auto; */
     margin-left: 7px;
     box-sizing: border-box;
-    width: 120px;
+    width: 250px;
 }
 .nav-links ul li a{
     text-decoration: none;
     color: black;
     align-items: flex-start;
-    font-size: 10px;
+    font-size: 17px;
     border: #FAFAFA;
     cursor: pointer;
-    transition: 0.5s;
+    
 
 }
 .nav-links ul li:hover{
     background: #FC6C0F;
 
+}
+.fa{
+    padding-right: 12px;
+    align-items: center;
+    align-content:center;
+    font-size: 30px;
 }
 
 .title-health-form{
@@ -63,21 +69,23 @@ display: block;
 .student-icon{
     align-items: flex-end;
     background: #1C2D50;
-    height: 60px;
+    height: 90px;
 
 }
 #icon{
     float: right;
-    margin-right:20px;
-    padding-top: 12px;
+    margin-right:30px;
+    padding-top: 18px;
     padding-right: 18px;
     color: #FAFAFA;
+    text-decoration: none;
+    font-size: 28px;
 }
 .text-box{
     box-sizing: border-box;
     background: #FAFAFA;
     margin-left: 10%;
-    height: 80px;
+    height: 100px;
     /* justify-content: center; */
     margin-top: 50px;
     width: 80%;
@@ -86,6 +94,11 @@ display: block;
     text-align: center;
     margin-bottom: 50px;
 
+}
+.text-box > p{
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 18px;
 }
 .form{
     display: flex;
@@ -104,18 +117,25 @@ display: block;
 }
 .pre-next-section{
     display: flex;
-    justify-content:baseline;
+    justify-content:space-between;
     align-items: baseline;
     margin-left: 28px;
     margin-right: 28px;
-    background: #FC6C0F;
+    /* background: #FC6C0F; */
 }
 .previous-next a{
     color: black;
     box-sizing: border-box;
-    background: #FC6C0F;
-    border-radius: 4px;
-    width: 100px;
+    /* height: 100px;
+    width: 150px; */
+    background: #FAFAFA;
+    border-radius: 10px;
+    width: 80px;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 30px 15px 30px;
 }
 .quiz-1{
     display: flex;
@@ -157,6 +177,26 @@ display: block;
     font-size: 18px;
     padding-bottom: 5px;
 }
+@media(max-width:700px){
+
+    .title-health-form{
+        .font-size: 20px;
+    }
+    .nav-links ul li{
+       
+        display: block;
+      
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
 /* .yes-no input{
     position: absolute;
     opacity: 0;
@@ -201,3 +241,4 @@ display: block;
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   } */
+  
