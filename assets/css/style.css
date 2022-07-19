@@ -1,3 +1,5 @@
+/* login section*/
+
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +42,8 @@
     width: 120%;
     border-radius: 10px;
     margin-top: 5px;
+    border: 1px solid;
+    padding: 10px;
 }
 
 #password {
@@ -47,17 +51,17 @@
     width: 120%;
     border-radius: 10px;
     margin-top: 5px;
+    border: 1px solid;
+    padding: 10px;
 }
 
 #login {
-
     height: 40px;
     width: 120%;
     border-radius: 10px;
     margin-top: 30px;
     background-color: #FC6C0F;
 }
-
 
 .forgot-password {
     margin-top: 30px;
@@ -66,4 +70,9 @@
 
 button {
     color: #FAFAFA;
+    border: none;
+}
+
+#tag {
+    text-align: left;
 }
