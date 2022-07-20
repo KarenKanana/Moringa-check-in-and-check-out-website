@@ -76,6 +76,11 @@ button {
     text-align: left;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
 .container{
     background: #D9D9D9;
     display: flex;
@@ -91,6 +96,7 @@ button {
  padding: 12px;
  background: #FAFAFA ;
  width: 15%;
+ overflow: hidden;
  /* height: 100vh; */
 
 }
@@ -108,12 +114,14 @@ display: block;
 }
 .nav-links ul li{
     padding: 18px;
+    /* margin: auto; */
     margin-left: 7px;
     box-sizing: border-box;
     width: 250px;
 }
 
 .nav-links ul li a {
+.nav-links ul li a{
     text-decoration: none;
     color: black;
     align-items: flex-start;
@@ -139,6 +147,24 @@ display: block;
 }
 
 .student-icon {
+    
+
+}
+.nav-links ul li:hover{
+    background: #FC6C0F;
+
+}
+.fa{
+    padding-right: 12px;
+    align-items: center;
+    align-content:center;
+    font-size: 30px;
+}
+
+.title-health-form{
+    width: 85%;
+}
+.student-icon{
     align-items: flex-end;
     background: #1C2D50;
     height: 90px;
@@ -190,6 +216,10 @@ display: block;
     display: flex;
     justify-content:space-between;
     align-items: flex-end;
+.pre-next-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
     margin-left: 28px;
     margin-right: 28px;
     /* background: #FC6C0F; */
@@ -278,6 +308,7 @@ display: block;
         height: 100vh;
         width: 150px;
         top: 0;
+        /* right: 0; */
         text-align: left;
         z-index: 2;
     }
@@ -462,3 +493,137 @@ div h3{
     transform: rotate(45deg);
   } */
   
+
+
+.content-part {
+    /* background: #FC6C0F; */
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 0%;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 100%;
+
+    display: flex;  
+    justify-content: center;
+}
+
+.upper-part p {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 17%;
+    font-size: 30px;
+    
+    
+}
+.lower-part{
+    padding: 40px 30px 40px 30px;
+    background-color: #FAFAFA;
+    box-sizing: border-box;
+    border-radius: 90px;
+    margin-top:50px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+    height: 20%;
+    
+    
+}
+.date-time{
+    font-size: 20px;
+    align-content: center;
+    margin-bottom: 25px;
+
+}
+#Date{
+    box-sizing: border-box;
+    background-color:#FAFAFA ;
+    border-radius: 80px;
+    padding: 10px 10px;
+
+
+
+
+}
+
+    
+#Time-in {
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    border-radius: 80px; 
+padding: 10px 10px;
+justify-content: flex-end;
+
+
+
+}
+.Room-floor {
+    font-size: 20px;
+    align-content: center;
+    margin-bottom: 25px;
+
+}
+#Room {
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    border-radius: 80px;
+    padding: 10px 10px;
+
+}
+#Floor {
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    border-radius: 80px;
+    padding: 10px 10px;
+
+}
+.laptop-name {
+
+    font-size: 20px;
+    align-content: center;
+    margin-bottom: 25px;
+
+}
+#laptop {
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    border-radius: 80px;
+    padding: 10px 10px;
+    
+
+
+}
+.serialno {
+    font-size: 20px;
+    align-content: center;
+    margin-bottom: 25px;
+
+}
+#serialnumber {
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+    border-radius: 80px;
+    padding: 10px 10px;
+
+}
+
+.checkin {
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 80px;
+    margin-top: 7%;
+   margin-left: 5%;
+    font-size: 30px;
+    background-color: #FC6C0F;
+    padding: 10px 10px 20px 20px;
+
+}
+#btn{
+    font-size: 30px;
+    text-align: center;
+    color: #FAFAFA;
+    background: #FC6C0F;
+    border: 0px ;
+    margin-left: 28%;
+}
+
