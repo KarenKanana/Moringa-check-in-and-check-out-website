@@ -120,8 +120,7 @@ display: block;
     width: 250px;
 }
 
-
-.nav-links ul li a{
+.nav-links ul li a {
     text-decoration: none;
     color: black;
     align-items: flex-start;
@@ -160,7 +159,7 @@ display: block;
 .title-health-form{
     width: 85%;
 }
-.student-icon{
+.student-icon {
     align-items: flex-end;
     background: #1C2D50;
     height: 90px;
@@ -212,7 +211,7 @@ display: block;
 .pre-next-section{
     display: flex;
     justify-content:space-between;
-    align-items: baseline;
+    align-items: flex-end;
     margin-left: 28px;
     margin-right: 28px;
     /* background: #FC6C0F; */
