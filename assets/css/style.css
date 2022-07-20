@@ -108,7 +108,6 @@ display: block;
 }
 .nav-links ul li{
     padding: 18px;
-    /* margin: auto; */
     margin-left: 7px;
     box-sizing: border-box;
     width: 250px;
@@ -121,8 +120,6 @@ display: block;
     font-size: 17px;
     border: #FAFAFA;
     cursor: pointer;
-
-
 }
 
 .nav-links ul li:hover {
@@ -161,7 +158,6 @@ display: block;
     background: #FAFAFA;
     margin-left: 10%;
     height: 100px;
-    /* justify-content: center; */
     margin-top: 50px;
     width: 80%;
     border-radius: 8px;
@@ -282,7 +278,6 @@ display: block;
         height: 100vh;
         width: 150px;
         top: 0;
-        /* right: 0; */
         text-align: left;
         z-index: 2;
     }
