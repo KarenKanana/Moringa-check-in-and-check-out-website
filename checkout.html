@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;1,200;1,600&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Moringa-check-in-and-check-out-website</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="aside-bar">
+            <div class="logo">
+                <img src="./assets/images/Moringa logo.png" alt="">
+            
+
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#"> <i class="fa fa-user-circle"></i>Account</a></li>
+                    <li><a href="#"><i class="fa fa-calendar-check-o"></i> Health Check</a></li>
+                    <li><a href="#"> <i class="fa fa-calendar-check-o"></i> Check-In Form</a></li>
+                    <li><a href="#"> <i class="fa fa-calendar"></i> Check-out Form</a></li>
+                    <li><a href="#"> <i class="fa fa-book"></i>Attendance Report</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i> Help Desk</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="title-health-form">
+            <div class="student-icon">
+                <a id="icon" href=""><i class="fa fa-user-circle"> Student Name</i></a>
+            </div>
+            <div class="upper-part">
+                    <p>Fill in the details below</p>
+                </div>
+
+            <div class="content-part">
+
+                
+                <div class="lower-part">
+                    <div class="date-time">
+                        <label for="Date">Date</label>
+                        <input id="Date" type="text">
+
+                        <label for="Time">Time in</label>
+                        <input id="Time-in" type="text">
+                    </div>
+                    <div class="Room-floor">
+                        <label for="Room">Room</label>
+                        <input id="Room" type="text">
+
+                        <label for="Floor">Floor</label>
+                        <input id="Floor" type="text">
+                    </div>
+                    <div class="laptop-name">
+                        <label for="laptop">Laptop</label>
+                        <input id="laptop" type="text">
+                    </div>
+                    <div class="serialno">
+                        <label for="serial-Number">Serial Number</label>
+                        <input id="serialnumber" type="text">
+                    </div>
+                    <div class="checkin">
+                        <input id="btn" type="button" value="Check-Out" onclick="submit()">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="pre-next-section">
+            <div class="previous-next">
+                <a href=""><i id="next-icon" class="fa fa-angle-double-left" aria-hidden="true" ></i> PREV</a>
+            </div>
+            <div class="previous-next">
+                <a href="">NEXT<i id="next-icon" class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        </div>
+        
+
+
+    </div>
+
+
+
+</body>
+
+</html>
