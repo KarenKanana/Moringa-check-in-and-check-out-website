@@ -320,10 +320,10 @@ display: block;
 .quest-section{
     width: 80%;
     margin: auto;
-    margin-top: 6%;
+    margin-top: 3%;
     height: 70%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: center; */
     flex-direction: column;
     background: #FAFAFA;
     border-radius: 15px;
@@ -334,20 +334,16 @@ display: block;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background: #FC6C0F;
     width: 90%;
-    padding-top: 30px;
-    margin-top: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
     height: 10%;
 }
 .quest-name{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background: #FC6C0F;
     width: 90%;
-    padding-top: 30px;
-    margin-top: 30px;
     height: 10%;
 }
 
@@ -355,33 +351,77 @@ display: block;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background: #FC6C0F;
     width: 90%;
-    padding-top: 30px;
-    margin-top: 30px;
-    height: 10%;
+    height: 7%;
 }
 .items{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background: #FC6C0F;
     width: 90%;
-    padding-top: 30px;
-    margin-top: 30px;
-    height: 10%;
+    height: 7%;
 }
 .save{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background: #FC6C0F;
     width: 80%;
-    padding-top: 30px;
-    margin-top: 30px;
-    height: 10%;
+    height: 7%;
 }
+div h3{
+    font-size: 30px;
+    padding-left: 12px;
+    font-weight: 400;
+}
+.arrival-time input{
+    height: 40px;
+    width: 400px;
+    border-radius: 12px;
+    border: 1px solid #D9D9D9;
+}
+.quest-contact input{
+    height: 40px;
+    width: 400px;
+    border-radius: 12px;
+    border: 1px solid #D9D9D9;
 
+}
+.quest-name input{
+    height: 40px;
+    width: 400px;
+    border-radius: 12px;
+    border: 1px solid #D9D9D9;
+}
+.quest-contact input{
+    height: 40px;
+    width: 400px;
+    border-radius: 12px;
+    border: 1px solid #D9D9D9;
+}
+.save button{
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+    background: #FC6C0F;
+    border-radius: 12px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    cursor: pointer;
+    padding-bottom: 18px;
+}
+.save button:hover{
+    color: black;
+    background: #D9D9D9;
+}
+.items input{
+    height: 40px;
+    width: 400px;
+    border-radius: 12px;
+    border: 1px solid #D9D9D9;
+}
 /* .yes-no input{
     position: absolute;
   
