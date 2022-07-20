@@ -22,11 +22,9 @@
 
 }
 
-#logo{
-    height: 100px;
-    width: 100px;
-    margin-left: 5px;
-    /* width: 100% auto; */
+.aside-bar img{
+    width: 100%;
+    
 }
 .nav-links{
 display: block;
@@ -36,43 +34,131 @@ display: block;
     
 }
 .nav-links ul li{
-    padding: 12px;
+    padding: 18px;
     /* margin: auto; */
     margin-left: 7px;
     box-sizing: border-box;
-    width: 120px;
+    width: 250px;
 }
 .nav-links ul li a{
     text-decoration: none;
     color: black;
     align-items: flex-start;
-    font-size: 10px;
+    font-size: 17px;
     border: #FAFAFA;
     cursor: pointer;
-    transition: 0.5s;
+    
 
 }
 .nav-links ul li:hover{
     background: #FC6C0F;
-    opacity: 70%;
+
+}
+.fa{
+    padding-right: 12px;
+    align-items: center;
+    align-content:center;
+    font-size: 30px;
 }
 
 .title-health-form{
-    width: 88%;
+    width: 85%;
 }
 .student-icon{
     align-items: flex-end;
     background: #1C2D50;
-    height: 50px;
+    height: 90px;
 
 }
 #icon{
     float: right;
-    margin-right:20px;
-    padding-top: 12px;
+    margin-right:30px;
+    padding-top: 18px;
     padding-right: 18px;
     color: #FAFAFA;
+    text-decoration: none;
+    font-size: 28px;
 }
+.pre-next-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    margin-left: 28px;
+    margin-right: 28px;
+    /* background: #FC6C0F; */
+}
+.previous-next a{
+    color: black;
+    box-sizing: border-box;
+    /* height: 100px;
+    width: 150px; */
+    background: #FAFAFA;
+    border-radius: 10px;
+    width: 80px;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 30px 15px 30px;
+}
+@media(max-width:700px){
+    .title-health-form{
+        width: 85%;
+    }
+    .text-box > p{
+        font-size: 17px;
+    }
+
+    .title-health-form{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+       
+        display: block;
+      
+    }
+    .nav-links{
+        position: absolute;
+        background: #FC6C0F;
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        /* right: 0; */
+        text-align: left;
+        z-index: 2;
+    }
+    .aside-bar img{
+        display: none;
+    }
+    .pre-next-section a{
+        padding: 0%;
+        font-size: 15px;
+        width: 20px;
+        justify-content: center;
+    }
+    #next-icon{
+        font-size: 17px;
+    }
+}
+@media(max-width:1600px){
+    .nav-links ul li{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .nav-links ul li a{
+        font-size: 18px; 
+    }
+    .student-icon{
+        height: 90px;
+    
+    }
+    .aside-bar img{
+        width: 100%;
+        
+    }
+
+}
+
 
 .content-part {
     /* background: #FC6C0F; */
