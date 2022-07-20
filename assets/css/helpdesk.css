@@ -328,6 +328,13 @@
     border: 2px solid green;
     border-bottom-right-radius: 10px;
 }*/
+/*th {
+    
+    border-top: none;
+}
+td:first-child, th:first-child {
+    border-left: none;
+}*/
 
 .rows input{
     border: none;
