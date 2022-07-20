@@ -22,11 +22,9 @@
 
 }
 
-#logo{
-    height: 200px;
-    width: 250px;
-    margin-left: 7px;
-    /* width: 100% auto; */
+.aside-bar img{
+    width: 100%;
+    
 }
 .nav-links{
 display: block;
@@ -178,9 +176,12 @@ display: block;
     padding-bottom: 5px;
 }
 @media(max-width:700px){
+    .title-health-form{
+        width: 85%;
+    }
 
     .title-health-form{
-        .font-size: 20px;
+        font-size: 20px;
     }
     .nav-links ul li{
        
@@ -189,14 +190,41 @@ display: block;
     }
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background: #FC6C0F;
         height: 100vh;
-        width: 300px;
+        width: 150px;
         top: 0;
-        right: 0;
+        /* right: 0; */
         text-align: left;
         z-index: 2;
     }
+    .aside-bar img{
+        display: none;
+    }
+    .pre-next-section a{
+        font-size: 17px;
+         
+}
+}
+@media(max-width:1600px){
+    .nav-links ul li{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .nav-links ul li a{
+        font-size: 18px; 
+    }
+    .student-icon{
+        height: 90px;
+    
+    }
+    .aside-bar img{
+        width: 100%;
+        
+    }
+
+}
+
 /* .yes-no input{
     position: absolute;
     opacity: 0;
