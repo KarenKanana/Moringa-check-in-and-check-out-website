@@ -267,7 +267,6 @@ button {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background: #FAFAFA;
     height: 60%;
     align-items: center;
     width: 90%;
@@ -282,7 +281,9 @@ button {
     align-items: center;
     flex-direction: column;
     width: 30%;
-    height: 100%;
+    height: 80%;
+    background: #FAFAFA;
+    border-radius: 8%;
 }
 
 .profile-table {
@@ -291,6 +292,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #FAFAFA;
+    border-radius: 8%;
 
 
 }
