@@ -240,6 +240,11 @@ display: block;
     }
 
 }
+.quest-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 
 /* .yes-no input{
