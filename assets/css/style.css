@@ -120,7 +120,6 @@ button {
 
 .nav-links ul li {
     padding: 18px;
-    /* margin: auto; */
     margin-left: 7px;
     box-sizing: border-box;
     width: 250px;
@@ -133,8 +132,6 @@ button {
     font-size: 17px;
     border: #FAFAFA;
     cursor: pointer;
-
-
 }
 
 .nav-links ul li:hover {
@@ -175,7 +172,6 @@ button {
     background: #FAFAFA;
     margin-left: 10%;
     height: 100px;
-    /* justify-content: center; */
     margin-top: 50px;
     width: 80%;
     border-radius: 8px;
@@ -216,7 +212,6 @@ button {
         height: 100vh;
         width: 150px;
         top: 0;
-        /* right: 0; */
         text-align: left;
         z-index: 2;
     }
@@ -259,10 +254,6 @@ button {
 
 }
 
-/* 
-.profile {
-    height: 50vh;
-    width: 40%; */
 .profile-section {
     display: flex;
     justify-content: space-between;
@@ -303,25 +294,21 @@ table {
     margin: auto;
     width: 100%;
     height: 80%;
-
 }
 
 #profile-icon {
 
     font-size: 250px;
     text-align: center;
-    /* margin-left: 20%; */
     align-items: center;
     color: #1C2D50;
     padding-top: 20px;
 
 }
 
-#profile-icon.fa {}
 
 .profile-image {
-    /* height: 30%;
-    width: 60%; */
+
     margin-top: 20px;
     padding-top: 0;
     padding-bottom: 0%;
@@ -335,7 +322,7 @@ table {
     align-items: center;
     justify-content: left;
     font-size: 26px;
-    /* margin-left: 30px; */
+
 }
 
 td:nth-child(1) {
