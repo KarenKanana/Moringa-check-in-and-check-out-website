@@ -120,7 +120,7 @@ display: block;
     width: 250px;
 }
 
-.nav-links ul li a {
+
 .nav-links ul li a{
     text-decoration: none;
     color: black;
@@ -146,10 +146,6 @@ display: block;
     width: 85%;
 }
 
-.student-icon {
-    
-
-}
 .nav-links ul li:hover{
     background: #FC6C0F;
 
@@ -212,10 +208,7 @@ display: block;
     margin-bottom: 50px;
     
 }
-.pre-next-section{
-    display: flex;
-    justify-content:space-between;
-    align-items: flex-end;
+
 .pre-next-section{
     display: flex;
     justify-content:space-between;
