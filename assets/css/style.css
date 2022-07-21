@@ -336,12 +336,12 @@ display: block;
 
 }
 .quest-section{
-    width: 80%;
+    width: 70%;
     margin: auto;
-    margin-top: 3%;
-    height: 70%;
+    margin-top: 5%;
+    height: 60%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: column;
     background: #FAFAFA;
     border-radius: 15px;
@@ -354,7 +354,6 @@ display: block;
     flex-direction: row;
     width: 90%;
     padding-top: 10px;
-    margin-top: 10px;
     height: 10%;
 }
 .quest-name{
