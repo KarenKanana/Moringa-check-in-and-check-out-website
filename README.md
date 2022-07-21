@@ -16,11 +16,13 @@ The aim of this project is to help come up with a check-in and check out website
 
 
 ## Features
-- Input form (Allows input of milk in litres in different sheds per day)
-- Output Display
-- Calculates total daily produce
-- Income output over time
-- Monthly & annual reports
+- log in form
+- health check form
+- check-in and check-out form
+- help desk form
+- check-in and check-out output data
+- 
+- 
 
 
 ## Technology Used
@@ -33,7 +35,7 @@ The aim of this project is to help come up with a check-in and check out website
 
 ### How to run the application locally on your computer.
 - Open your terminal.
-- Clone the repository `git clone git@github.com:KarenKanana/Dairy-Business.git`
+- Clone the repository `git clone git@github.com:KarenKanana/Moringa-check-in-andcheck-out-website.git`
 - `cd Dairy-Business`
 - Navigate to index.html file and open it in your browser `browser name index.html`.
 - Internet connection is not needed to run index.html succesfully
