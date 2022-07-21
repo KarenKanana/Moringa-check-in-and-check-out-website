@@ -46,7 +46,7 @@ The aim of this project is to help come up with a check-in and check out website
 
 
 ## Copyright and license information
-> [MIT License]
+> [MIT License](https://github.com/KarenKanana/Moringa-check-in-and-check-out-website/new/check-in-check-out-form)
 
 Copyright (c) 2022 Karen Kanana
 
