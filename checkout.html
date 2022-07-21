@@ -16,7 +16,7 @@
     <div class="container">
         <div class="aside-bar">
             <div class="logo">
-                <img src="./assets/images/Moringa logo.png" alt="">
+                <img src="./assets/images/moringalogo.png" alt="">
             
 
             </div>
@@ -27,8 +27,8 @@
                     <li><a href="./checkin.html"> <i class="fa fa-calendar-check-o" ></i> Check-In Form</a></li>
                     <li><a href="./checkout.html"> <i class="fa fa-calendar" ></i>  Check-out Form</a></li>
                     <li><a href="./guest.html"> <i class="fa fa-book" ></i>Quest</a></li>
-                    <li><a href="#"> <i class="fa fa-book" ></i>Attendance Report</a></li>
-                    <li><a href="#"><i class="fa fa-phone"></i>  Help Desk</a></li>
+                    <li><a href="./attendance.html"> <i class="fa fa-book" ></i>Attendance Report</a></li>
+                    <li><a href="./helpdesk.html"><i class="fa fa-phone"></i>  Help Desk</a></li>
                     <li><a href="./staff-profile.html"><i class="fa fa-user-circle"></i>  Staff</a></li>
 
 
@@ -40,14 +40,14 @@
             <div class="student-icon">
                 <a id="icon" href=""><i class="fa fa-user-circle"> Student Name</i></a>
             </div>
-            <div class="upper-part">
+            
+            <div class="content-part">
+                <div class="upper-part">
                     <p>Fill in the details below</p>
                 </div>
 
-            <div class="content-part">
-
                 
-                <div class="lower-part">
+                <form id="checkoutForm">
                     <div class="date-time">
                         <label for="Date">Date</label>
                         <input id="Date" type="text">
@@ -70,12 +70,10 @@
                         <label for="serial-Number">Serial Number</label>
                         <input id="serialnumber" type="text">
                     </div>
-                    <div class="checkin">
+                    <div class="checkout">
                         <input id="btn" type="button" value="Check-Out" onclick="submit()">
                     </div>
-
-
-                </div>
+                </form>
             </div>
             <div class="pre-next-section">
             <div class="previous-next">
