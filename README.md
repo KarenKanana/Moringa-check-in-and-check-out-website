@@ -46,7 +46,7 @@ The aim of this project is to help come up with a check-in and check out website
 
 
 ## Copyright and license information
-> [MIT License](https://github.com/KarenKanana/Dairy-Business/blob/gh-pages/LICENSE)
+> [MIT License]
 
 Copyright (c) 2022 Karen Kanana
 
