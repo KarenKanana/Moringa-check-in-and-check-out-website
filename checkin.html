@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,18 +9,15 @@
         rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Moringa-check-in-and-check-out-website</title>
 </head>
 
 <body>
     <div class="container">
         <div class="aside-bar">
-            <div class="logo">
-                <img src="./assets/images/Moringa logo.png" alt="">
-
-
-
+            <div class="mylogo">
+                <img src="/assets/images/moringalogo.png" alt="">
 
             </div>
             <div class="nav-links">
@@ -28,10 +26,10 @@
                     <li><a href="./health-check.html"><i class="fa fa-calendar-check-o"></i> Health Check</a></li>
                     <li><a href="./checkin.html"> <i class="fa fa-calendar-check-o"></i> Check-In Form</a></li>
                     <li><a href="./checkout.html"> <i class="fa fa-calendar"></i> Check-out Form</a></li>
-                    <li><a href="./guest.html"> <i class="fa fa-book" ></i>Quest</a></li>
+                    <li><a href="./guest.html"> <i class="fa fa-book"></i>Quest</a></li>
                     <li><a href="./attendance.html"> <i class="fa fa-book"></i>Attendance Report</a></li>
                     <li><a href="./helpdesk.html"><i class="fa fa-phone"></i> Help Desk</a></li>
-                    <li><a href="./staff-profile.html"><i class="fa fa-user-circle"></i>  Staff</a></li>
+                    <li><a href="./staff-profile.html"><i class="fa fa-user-circle"></i> Staff</a></li>
 
                 </ul>
             </div>
@@ -42,58 +40,58 @@
                 <a id="icon" href=""><i class="fa fa-user-circle"> Student Name</i></a>
             </div>
 
-
-            <div class="comtainer2">
-
-
+            <div class="check-section">
                 <div class="upper-part">
                     <p>Fill in the details below</p>
                 </div>
+                <div class="form2">
 
-                <div class="content-part">
+
+                <form id="checkinForm"> 
+                    <div class="date-time">
+                        <label for="Date">Day</label>
+                        <input id="Date" type="date" min="monday" max="friday">
 
 
-                    <div class="lower-part">
-                        <div class="date-time">
-                            <label for="Date">Date</label>
-                            <input id="Date" type="date">
+                        <label for="Time">Time in</label>
+                        <input id="Date" type="time" min="7.00am" max="9.00am">
+                    </div>
+                    <div class="Room-floor">
+                        <label for="Room">Room</label>
+                        <select id="Room" name="room" id="room">
+                            <option value="Room1">101</option>
+                            <option value="Room2">102</option>
+                            <option value="Room3">103</option>
+                            <option value="Room4">104</option>
+                        </select>
 
-                            <label for="Time">Time in</label>
-                            <input id="Time-in" type="text">
-                        </div>
-                        <div class="Room-floor">
-                            <label for="Room">Room</label>
-                            <input id="Room" type="text">
-
-                            <label for="Floor">Floor</label>
-                            <input id="Floor" type="text">
-                        </div>
-                        <div class="laptop-name">
-                            <label for="laptop">Laptop</label>
-                            <input id="laptop" type="text">
-                        </div>
-                        <div class="serialno">
-                            <label for="serial-Number">Serial Number</label>
-                            <input id="serialnumber" type="text">
-                        </div>
-                        <div class="checkin">
-                            <input id="btn" type="button" value="Check-In" onclick="submit()">
-                        </div>
-
+                        <label for="Floor">Floor</label>
+                        <select id="Floor" name="room" id="room">
+                            <option value="Room1">First floor</option>
+                            <option value="Room2">Third Floor</option>
+                        </select>
+                    </div>
+                    <div class="laptop-name">
+                        <label for="Laptop">Laptop</label>
+                        <select name="laptop" id="laptop">
+                            <option value="#">HP</option>
+                            <option value="#">Lenovo</option>
+                            <option value="#">Dell</option>
+                            <option value="#">Mac</option>
+                            <option value="#">Other</option>
+                        </select>
+                    </div>
+                    <div class="serialno">
+                        <label for="serial-Number">Serial Number</label>
+                        <input id="serialnumber" type="text">
+                    </div>
+                    <div class="checkin">
+                        <a id="btn" href=""> Check-In</a>
                     </div>
 
-
-                </div>
+                </form>
             </div>
-            <div class="pre-next-section">
-                <div class="previous-next">
-                    <a href=""><i id="next-icon" class="fa fa-angle-double-left" aria-hidden="true"></i> PREV</a>
-                </div>
-                <div class="previous-next">
-                    <a href="">NEXT<i id="next-icon" class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                </div>
             </div>
-
         </div>
 
 
