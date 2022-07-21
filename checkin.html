@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,18 +9,15 @@
         rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Moringa-check-in-and-check-out-website</title>
 </head>
 
 <body>
     <div class="container">
         <div class="aside-bar">
-            <div class="logo">
+            <div class="mylogo">
                 <img src="/assets/images/moringalogo.png" alt="">
-
-
-
 
             </div>
             <div class="nav-links">
@@ -42,66 +40,58 @@
                 <a id="icon" href=""><i class="fa fa-user-circle"> Student Name</i></a>
             </div>
 
-            <div class="content-part">
+            <div class="check-section">
                 <div class="upper-part">
                     <p>Fill in the details below</p>
                 </div>
+                <div class="form2">
 
 
+                <form id="checkinForm"> 
+                    <div class="date-time">
+                        <label for="Date">Day</label>
+                        <input id="Date" type="date" min="monday" max="friday">
 
-            <form id="checkinForm"> 
-                <div class="date-time">
-                    <label for="Date">Day</label>
-                    <input id="Date" type="date" min="monday" max="friday">
 
+                        <label for="Time">Time in</label>
+                        <input id="Date" type="time" min="7.00am" max="9.00am">
+                    </div>
+                    <div class="Room-floor">
+                        <label for="Room">Room</label>
+                        <select id="Room" name="room" id="room">
+                            <option value="Room1">101</option>
+                            <option value="Room2">102</option>
+                            <option value="Room3">103</option>
+                            <option value="Room4">104</option>
+                        </select>
 
-                    <label for="Time">Time in</label>
-                    <input id="Date" type="time" min="7.00am" max="9.00am">
-                </div>
-                <div class="Room-floor">
-                    <label for="Room">Room</label>
-                    <select id="Room" name="room" id="room">
-                        <option value="Room1">101</option>
-                        <option value="Room2">102</option>
-                        <option value="Room3">103</option>
-                        <option value="Room4">104</option>
-                    </select>
+                        <label for="Floor">Floor</label>
+                        <select id="Floor" name="room" id="room">
+                            <option value="Room1">First floor</option>
+                            <option value="Room2">Third Floor</option>
+                        </select>
+                    </div>
+                    <div class="laptop-name">
+                        <label for="Laptop">Laptop</label>
+                        <select name="laptop" id="laptop">
+                            <option value="#">HP</option>
+                            <option value="#">Lenovo</option>
+                            <option value="#">Dell</option>
+                            <option value="#">Mac</option>
+                            <option value="#">Other</option>
+                        </select>
+                    </div>
+                    <div class="serialno">
+                        <label for="serial-Number">Serial Number</label>
+                        <input id="serialnumber" type="text">
+                    </div>
+                    <div class="checkin">
+                        <a id="btn" href=""> Check-In</a>
+                    </div>
 
-                    <label for="Floor">Floor</label>
-                    <select name="room" id="room">
-                        <option value="Room1">First floor</option>
-                        <option value="Room2">Third Floor</option>
-                    </select>
-                </div>
-                <div class="laptop-name">
-                    <label for="Laptop">Laptop</label>
-                    <select name="laptop" id="laptop">
-                        <option value="#">HP</option>
-                        <option value="#">Lenovo</option>
-                        <option value="#">Dell</option>
-                        <option value="#">Mac</option>
-                        <option value="#">Other</option>
-                    </select>
-                </div>
-                <div class="serialno">
-                    <label for="serial-Number">Serial Number</label>
-                    <input id="serialnumber" type="text">
-                </div>
-                <div class="checkin">
-                    <input id="btn" type="button" value="Check-In">
-                </div>
-
-            </form>
+                </form>
             </div>
-            <div class="pre-next-section">
-                <div class="previous-next">
-                    <a href=""><i id="next-icon" class="fa fa-angle-double-left" aria-hidden="true"></i> PREV</a>
-                </div>
-                <div class="previous-next">
-                    <a href="">NEXT<i id="next-icon" class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                </div>
             </div>
-
         </div>
 
 
