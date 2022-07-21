@@ -48,3 +48,22 @@ function validateSignupForm() {
 		return true;
 	}
 }
+
+
+/*radio selection part*/
+
+function fn1() {
+
+	var rd1 = document.getElementById("rd1");
+	var rd2 = document.getElementById("rd2");
+
+
+	if (rd1.checked === true)
+		alert("Please stay at home and seek medical attention");
+	else if (rd2.checked === true)
+		alert("You are cleared to come to space");
+	else
+		alert("No channel selected");
+}
+
+
