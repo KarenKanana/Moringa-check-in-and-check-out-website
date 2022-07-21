@@ -44,7 +44,7 @@
                 <div class ="quiz-1">
                    <div class="q1"> Have you lost you sense of taste and/or smell</div>
                    <div class="yes"> <label class="yes-no">YES
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox" id="check1" value="YES">
                     <span class="checkmark"></span>
                   </div>
                   <div class="no">
@@ -58,7 +58,7 @@
                 <div class="quiz-2"> 
                     <div class="q1"> Do you have a cough (not due to other known conditions<br> such as chronic cough)? </div>
                    <div class="yes"> <label class="yes-no">YES
-                    <input type="checkbox" checked="checked">
+                    <input type="checkbox" id="check1" value="NO">
                     <span class="checkmark"></span>
                   </div>
                   <div class="no">
@@ -75,10 +75,11 @@
                   </div>
                   <div class="no">
                     <label class="yes-no">NO
-                        <input type="checkbox" checked="checked">
+                        <input type="checkbox" id="check2" value="NO">
                         <span class="checkmark"></span>
                   </div>
                 </div>
+                <button onclick="results" id="sbn">SUBMIT</button>
             
     
             </div>
@@ -95,5 +96,6 @@
         </div>
         
   </div>
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
