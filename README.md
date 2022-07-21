@@ -53,8 +53,10 @@ Copyright (c) 2022 Karen Kanana
 
 ## Author's Information
 - Name: Karen Kanana 
-- Email: kananakaren21@gmail.com
-- LinkedIn: [Karen Kanana](https://www.linkedin.com/in/karen-kanana-4b8a78205/)
+- Name : Isaac Siegei
+- Name : Diana Wanjiru
+- Name : Sheilla Diema
+- 
 
 
 ## Support and contact details
