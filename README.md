@@ -42,7 +42,7 @@ The aim of this project is to help come up with a check-in and check out website
 
 
 ## Live Page
->  https://karenkanana.github.io/Dairy-Business/
+>  
 
 
 ## Copyright and license information
