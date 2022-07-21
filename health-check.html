@@ -12,8 +12,8 @@
 <body>
     <div class="container">
         <div class="aside-bar">
-            <div class="logo">
-                <img id="logo" src="./assets/images/logo.png" alt="">
+            <div class="mylogo">
+                <img id="moringalogo" src="./assets/images/moringalogo.png" alt="">
 
             </div>
             <div class="nav-links">
@@ -79,21 +79,25 @@
                         <span class="checkmark"></span>
                   </div>
                 </div>
-            
-    
-            </div>
-            <div class="pre-next-section">
-                <div class="previous-next">
-                    <a href=""><i id="next-icon" class="fa fa-angle-double-left" aria-hidden="true" ></i> PREV</a>
+                <div class="radio-section">
+                    <div> <p>Did you selct "yes" in any of the items above?</p></div>
+                    <div><input id="rd1" name="grp1" type="radio"
+                    value="Yes">Yes</input></div>
+                    <div><input id="rd2" name="grp1" type="radio"
+                    value="No">No</input></div>
+                <div><button onclick="fn1()" id="btn1" >Submit</button></div>
+             </div>
                 </div>
-                <div class="previous-next">
-                    <a href="">NEXT<i id="next-icon" class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                <div class="pre-next-section">
+                    <div class="previous-next">
+                        <a href=""><i id="next-icon" class="fa fa-angle-double-left" aria-hidden="true" ></i> PREV</a>
+                    </div>
+                    <div class="previous-next">
+                        <a href="">NEXT<i id="next-icon" class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
-            
-            
-        </div>
-        
-  </div>
+          </div>
+        <script src="./assets/js/main.js"></script>
 </body>
 </html>
