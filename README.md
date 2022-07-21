@@ -36,7 +36,7 @@ The aim of this project is to help come up with a check-in and check out website
 ### How to run the application locally on your computer.
 - Open your terminal.
 - Clone the repository `git clone git@github.com:KarenKanana/Moringa-check-in-andcheck-out-website.git`
-- `cd Dairy-Business`
+- `cd Moringa-check-in-and-check-out-website`
 - Navigate to index.html file and open it in your browser `browser name index.html`.
 - Internet connection is not needed to run index.html succesfully
 
