@@ -336,12 +336,12 @@ display: block;
 
 }
 .quest-section{
-    width: 80%;
+    width: 70%;
     margin: auto;
-    margin-top: 3%;
-    height: 70%;
+    margin-top: 5%;
+    height: 60%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: column;
     background: #FAFAFA;
     border-radius: 15px;
@@ -354,7 +354,6 @@ display: block;
     flex-direction: row;
     width: 90%;
     padding-top: 10px;
-    margin-top: 10px;
     height: 10%;
 }
 .quest-name{
@@ -489,14 +488,13 @@ div h3{
 
 .content-part {
     /* background: #FC6C0F; */
-    width: 80%;
+    width: 90%;
     margin-left: 15%;
     margin-top: 0%;
-    align-items: center;
+    /* align-items: center; */
     box-sizing: border-box;
     border-radius: 12px;
-    height: 100%;
-
+    /* height: 100%; */
     display: flex;  
     justify-content: center;
 }
@@ -513,11 +511,12 @@ div h3{
     padding: 40px 30px 40px 30px;
     background-color: #FAFAFA;
     box-sizing: border-box;
-    border-radius: 90px;
+    width: 80%;
+    border-radius: 15px;
     margin-top:50px;
     margin-right: 80px;
     margin-bottom: 60px;
-    height: 20%;
+    /* height: 20%; */
     
     
 }
