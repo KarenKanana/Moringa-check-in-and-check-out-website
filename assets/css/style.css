@@ -90,6 +90,7 @@ body {
 .content {
     display: inline-flex;
     overflow: hidden;
+    
 }
 
 form {
