@@ -37,12 +37,12 @@ body {
     border-radius: 20px;
 }
 
-.box img {
+/* .box img {
     width: 150px;
     /* height: 10%; */
-    margin-top: -50px;
+    /* margin-top: -50px;
     padding-bottom: 30px;
-}
+} */ */
 
 .header {
     width: 300px;
@@ -91,6 +91,7 @@ body {
 .content {
     display: inline-flex;
     overflow: hidden;
+    
 }
 
 form {

@@ -24,22 +24,12 @@
             </div>
             <div class="page">
                 <div class="header">
-                    <a id="login" class="active" href="#login">login</a>
-                    <a  href="./siginup.html">signup</a>
+                    <a id="login" class="active" href="./index.html">login</a>
+                    <a id="signup" href="">signup</a>
                 </div>
                 <div id="errorMsg"></div>
                 <div class="content">
-                    <form class="login" name="loginForm" onsubmit="return validateLoginForm()" method="POST">
-                        <input type="text" name="name" id="logName" placeholder="Username">
-                        <input type="password" name="password" id="logPassword" placeholder="Password">
-                        <div id="check">
-                            <input type="checkbox" id="remember">
-                            <label for="remember">Remember me</label>
-                        </div>
-                        <br><br>
-                        <a class="loginbtn" href="./profile.html"> Login</a>
-                        <a id="forget" href="#">Forgot Password?</a>
-                    </form>
+                
                     <form class="signup" name="signupForm" onsubmit="return validateSignupForm()" method="POST">
                         <input type="email" name="email" id="signEmail" placeholder="Email">
                         <input type="text" name="name" id="signName" placeholder="Username">
